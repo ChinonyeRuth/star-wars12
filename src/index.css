@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+}
+.logo {
+  fill: rgb(255, 232, 31);
+  width: 70%;
+  padding-left: 130px;
+}
+.movies-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 10px;
+  margin: 40px;
+}
+
+.movie-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.movie-card h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.movie-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.movie-card a {
+  display: block;
+  font-size: 16px;
+  text-align: right;
+}
+
+hr {
+  color: red;
+}
+
+.movie-details {
+  background-color: black;
+  color: white;
+}
+.movie-details h1 {
+  text-align: center;
+}
+
+.movie-details p {
+  text-align: center;
+}
